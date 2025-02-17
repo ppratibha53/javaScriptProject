@@ -1,0 +1,47 @@
+body{
+    background-color: #babfff;
+    padding: 20px;
+}
+
+header{
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+}
+
+.page-link > span{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+_ first-page link _/ #hex-page {
+    text-decoration: underline;
+  }
+  
+  _ second and third-page links _/ #rgb-wrapper,
+  #hsl-wrapper {
+    display: none;
+  }
+  
+  /* main */
+  .main-wrapper {
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  button{
+    margin: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 110%;
+    border: solid 1px grey;
+    color: rgb(68, 65, 65);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    cursor: pointer;
+
+  }
