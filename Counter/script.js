@@ -15,12 +15,14 @@ CounterPlusElem.addEventListener('click',()=>{
 
  count ++;
  updateDisplay();
+ changeBackgroundColor()
 });
 
 CounterMinusElem.addEventListener('click',()=>{
  
     count --;
     updateDisplay();
+    changeBackgroundColor()
 });
 function updateDisplay(){
     CounterDisplayElm.innerHTML = count;
