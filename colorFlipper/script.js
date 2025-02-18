@@ -46,7 +46,7 @@ rgbPage.addEventListener("click", function(){
         hexPage.style.textDecoration  = "none";
         hslPage.style.textDecoration  = "none";
         
-        changesBackground.style.backgroundColor = rgbColor.textContent;
+        changeBackground.style.backgroundColor = rgbColor.textContent;
 
     }
    });
