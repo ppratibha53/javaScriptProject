@@ -1,11 +1,13 @@
 
   .container {
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     text-align: center;
-    display: flex;
+    display: block;
     justify-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: rgb(149, 210, 245);
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(182, 247, 220, 0.2);
+    background-color: rgb(201, 238, 236);
+
    
   }
