@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Reviews Carosuel</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>Our Reviews:</h1>
+        <hr>
+    </div>
+            <div class="name">
+                <h2>sourabh Gangavaram</h2>
+            </div>
+                <div class="carousel">
+                    <div class="carousel-item" style="display: block">
+                        <img id="defVisible" src="./images/download (4).jpg" alt="An image of a man">
+                    </div>
+                    <div class="carousel-item" style="display: none">
+                        <img id="imageTwo" src="./images/download (5).jpg" alt="An image of a woman">
+                    </div>
+                    <div class="carousel-item" style="display: none">
+                        <img id="imageThree" src="./images/download (6).jpg" alt="An image of Khaine">
+                    </div>
+                </div>
+            <div class="occupation">
+                <p>Backend Developer</p>
+            </div>
+            <div class="userComment">
+                <p id="userComment">This website is amazing - really useful learning experience. I hope the creator continues on his developer journey and we see more from him in the future!</p>
+            </div>
+                    <div class="userAction">
+                        <button type="button" id="buttonLeft" onclick="previousReview()">Previous</button>
+                        <button type="button" id="buttonRight" onclick="nextReview()">Next</button>
+                    </div>
+        </div>
+</body>
+<script src="index.js"></script>
+</html>
